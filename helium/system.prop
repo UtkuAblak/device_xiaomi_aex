@@ -1,0 +1,25 @@
+# Audio
+audio.offload.pcm.16bit.enable=true
+audio.offload.pcm.24bit.enable=true
+audio.offload.video=true
+persist.audio.fluence.voicerec=false
+voice.voip.conc.disabled=false
+use.qti.sw.alac.decoder=true
+use.qti.sw.ape.decoder=true
+
+# Camera
+media.camera.ts.monotonic=1
+persist.camera.HAL3.enabled=0
+
+# Display
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/calib.cfg
+ro.qcom.ad.sensortype=2
+ro.qualcomm.cabl=0
+
+# Display feature support
+# bit0-ColorPrefer bit1-EyeCare bit2-AD bit3-CE bit4-CABC bit5-SRGB
+ro.sys.display.support=63
+
+# Fingerprint
+ro.hardware.fingerprint=fpc
